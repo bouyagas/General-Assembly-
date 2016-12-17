@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Edit Movie</title>
+  </head>
+  <body>
+    <img src="<%= movie.Poster %>" alt="" />
+    <form class="edit" action="/<%= movie._id %>?_method=PUT" method="POST">
+      <input type="text" name="movie[Title]" value="<%= movie.Title %>">
+      <input type="submit" value="Update">
+    </form>
+  </body>
+</html>

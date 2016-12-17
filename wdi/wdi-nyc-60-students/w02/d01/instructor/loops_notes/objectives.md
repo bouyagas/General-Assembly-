@@ -1,0 +1,2 @@
+- Implement for, while, and for in loops
+- Pass functions as arguments of other functions AKA callbacks

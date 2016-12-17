@@ -1,0 +1,39 @@
+header {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.poster {
+  height: 175px;
+}
+
+.container {
+  width: 50%;
+}
+
+.favorites {
+  height: 400px;
+  background-color: rgb(222, 237, 255);
+}
+
+.results, .favorites {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.results {
+  height: 400px;
+}
+
+.movie-item {
+  width: 170px;
+  height: 300px;
+  text-align: center;
+}

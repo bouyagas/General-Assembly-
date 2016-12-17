@@ -1,0 +1,130 @@
+body{
+  background-image: url('http://images.cdn.fourfourtwo.com//sites/fourfourtwo.com/modules/custom/statzone/files/statszone_football_pitch.png');
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-size: 1440px 810px;
+  width: 1200px;
+  margin-top: 645px;
+
+}
+
+
+.player1, .player2, .player3, .player4, .player5, .player6,.player7, .player8, .player9, .player10, .player11, .player12 {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+
+}
+
+.player1, .player2, .player3, .player4, .player5, .player6{
+   background-color: blue;
+}
+
+ .player7, .player8, .player9, .player10, .player11, .player12 {
+  background-color: red;
+ }
+
+ .player1  {
+  position: absolute;
+  bottom: 348px;
+  left: 192px;
+
+}
+
+.player2 {
+  position: absolute;
+  bottom: 477px;
+  left: 380px;
+}
+
+.player3 {
+  position: absolute;
+  bottom: 115px;
+  left: 336px;
+}
+
+.player4 {
+  position: absolute;
+  bottom: 465px;
+  left: 507px;
+}
+.player5 {
+  position: absolute;
+  bottom: 249px;
+  left: 448px;
+}
+
+
+.player6{
+  position: absolute;
+  bottom: 379px;
+  left: 660px;
+}
+
+.player7{
+  position: absolute;
+  bottom: 115px;
+  left: 1070px;
+}
+
+.player8{
+  position: absolute;
+  bottom: 508px;
+  left: 976px;
+}
+
+
+.player9{
+  position: absolute;
+  bottom: 452px;
+  left: 893px;
+}
+
+
+.player10{
+  position: absolute;
+  bottom: 242px;
+  left: 881px;
+}
+.player11 {
+  position: absolute;
+  bottom: 386px;
+  left: 828px;
+}
+
+ .player12 {
+  position: absolute;
+  bottom: 344px;
+  left: 1224px
+}
+
+.ball {
+  position: absolute;
+  top: 387px;
+  left: 698px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+@media (max-width: 768){
+  body {
+    width: 600px;
+    height: 200px;
+  }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

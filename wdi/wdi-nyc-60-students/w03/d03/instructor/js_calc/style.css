@@ -1,0 +1,47 @@
+main {
+  background-color: #232323;
+  display: flex;
+  height: 500px;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  font-family: helvetica;
+  font-size: 40px;
+  padding: 2px;
+  width: 400px;
+}
+
+div {
+  height: 95px;
+  border-radius: 10px;
+  line-height: 95px;
+  text-align: center;
+  width: 95px;
+}
+
+div:hover {
+  cursor: pointer;
+}
+
+#display {
+  color: #fafafa;
+  width: 295px;
+  text-align: right;
+  font-size: 70px;
+}
+
+#display:hover {
+  cursor: none;
+}
+
+#clear, #equals {
+  background-color: #cfd0d4;
+}
+
+.operand {
+  background-color: #cfd0d4;
+}
+
+.operator {
+  background-color: #ed812e;
+  color: #fafafa;
+}

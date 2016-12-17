@@ -1,0 +1,16 @@
+.boxy-box{
+  position: fixed;
+  top: 20%;
+  height: 400px;
+  width: 400px;
+}
+
+#box1{
+  background-color: teal;
+  left: 10%;
+}
+
+#box2{
+  background-color: rebeccapurple;
+  left: 60%;
+}

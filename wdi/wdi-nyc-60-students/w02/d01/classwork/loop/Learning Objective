@@ -1,0 +1,24 @@
+Learning Objective
+
+
+[] Explain the concept of a callbacks
+   f(f(x))
+[] Explain why this is important for async programming
+[] Pass a named/annoymous fn -> fn
+[] Describe what a annoymous fn is
+[] Differentiate sync vs async programming 
+[] Differentiate function reference vs function reference
+
+vacabulary ->
+  event:
+  event bubbling:
+  event propagation:
+  event handler:
+  event broadcast:
+
+
+     handler     action                    handler/action 
+                                            
+  window.onload.function(){
+    ....code....
+  }

@@ -1,0 +1,7 @@
+- Perform the following tasks:
+  - Select the footer and change its background color to pink.
+  - Select the first navigational link in the header and change its text to the name of your **high school**.
+  - through the console, create a new `h1` element. Modify its contents to display your **favorite movie title**. Append the new `h1` to the header section.
+  - set the body of the page to have a font size of 30px
+  - get the amount of children contained in the header
+  - replace the GA logo with a textNode with the destination of your **last vacation as the content**.

@@ -1,0 +1,73 @@
+
+
+body{
+  margin: auto;
+  background-image: url('http://cdn1.theweek.co.uk/sites/theweek/files/styles/gallery_adv/public/2016/09/fifa-17_002.jpg?itok=GD90kxEs');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  opacity: 0.5;
+  filter: alpha(opacity=60);
+}
+
+
+#header {
+  background-color: black;
+  height: 100px;
+  position: relative;
+
+}
+
+h1 {
+
+  color: white;
+  position: absolute;
+  top: 5px;
+  left: 600px;
+  text-align: center;
+  height: 50px;
+  padding-bottom: 80px;
+  margin: 20px;
+  font-size: 54px;
+
+  }
+
+
+
+form{
+ margin-top:100px;
+ margin-left: 490px;
+ max-width: 400px;
+ text-align: center;
+ background-color: #2c2f2f ;
+ padding:3px 15px 5px 15px;
+ border-radius: 20%;
+ border: 1px solid #e7646d
+}
+
+
+input {
+  font-size: 29px;
+  height: 50px;
+  width: 370px;
+  margin: 14px;
+  }
+
+button {
+margin: 30px;
+font-size: 32px;
+background-color: black;
+border: 1px solid black;
+color: white;
+}
+
+section, #age {
+  margin-bottom: 43px;
+  font-size: 43px;
+}
+ @media (max-width: 768){
+  body {
+    width: 600px;
+    height: 200px;
+  }
+ }

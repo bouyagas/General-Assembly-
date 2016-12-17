@@ -1,0 +1,16 @@
+{
+  "name": "express_102",
+  "version": "1.0.0",
+  "description": "WDI Pick-Me-Up",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohamed Gassama",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}

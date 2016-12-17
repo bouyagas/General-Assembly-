@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Open Weather Search</title>
+  <link rel="stylesheet" href="../stylesheets/weather.css ">
+</head>
+<body>
+  <h1><%= weather.name %></h1>
+  <div><%= weather.weather[0].description %> <%= icon %></div>
+  <div>Current temp: <%= weather.main.temp %></div>
+  <div>Min temp: <%= weather.main.temp_min %></div>
+  <div>Max temp: <%= weather.main.temp_max %></div>
+  <a href="/">Search for more weather</a>
+</body>
+</html>

@@ -1,0 +1,22 @@
+section{
+  border: 2px dotted blue;
+  margin: 5px 0;
+}
+
+div{
+  margin: 0 auto;
+  border: 1px solid red;
+  padding: 2px;
+}
+
+.inline{
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block{
+  display: block;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= message %></title>
+    <link rel="stylesheet" href="/styles.css" media="screen" title="no title">
+    <script src="/scripts.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>
+      <!-- We are going to write ejs -->
+      <%= message %>
+    </h1>
+
+    <a href="/">Back to my products</a>
+
+    <ul class="expired-products">
+      <% for (var i = 0; i < myExpiredProducts.length; i++){ %>
+        <li> <%= myExpiredProducts[i].name %> </li>
+      <% }; %>
+    </ul>
+  </body>
+</html>

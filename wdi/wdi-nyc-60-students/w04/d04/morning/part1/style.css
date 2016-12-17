@@ -1,0 +1,33 @@
+body {
+  height: 2000px;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
+button {
+  height: 2rem;
+  width: 10rem;
+  margin: 1rem;
+  border-radius: .25rem;
+  font-size: 1rem;
+}
+
+.marker {
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+.first {
+  top: 500px;
+}
+
+.second {
+  top: 1000px;
+}
+
+.third {
+  top: 1500px;
+}

@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 16px;
+  background-color: #FF5252;
+  color: #333;
+}
+
+#content-wrapper {
+  /* give the wrapper a position of absolute and set its bottom, top, right and left properties to 0.
+  add padding, background-color and box-shadow (use a box-shadow generator to create a box-shadow on only the left side) */
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  padding: 2% 2%;
+  background-color: #FF5252;
+  box-shadow: -6px 0px 10px 1px #646464;
+
+  -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+}
+
+#content-wrapper.open {
+  /* set the left property of the content to move it to the side this creates a space to show the menu when the .open class is added */
+  left: 150px;
+}
+
+article {
+  /* give your articles a position of relative and display of inline-block.
+  set margin, padding, width and min-height as percentages add background color and border-radius */
+  position: relative;
+  display: inline-block;
+  margin: 5% 2.5% 2%;
+  padding: 1.8%;
+  width: 27%;
+  min-height: 60%;
+  background-color: white;
+  border-radius: 1em;
+}
+
+#hamburger-button {
+  /* give your hamburger button a disply of inline-block, vertical-align property of top set height to 15px and width to 20px */
+  display: inline-block;
+  vertical-align: top;
+  height: 15px;
+  width: 20px;
+}
+
+#hamburger-button:hover {
+  /* change the cursor to pointer */
+  cursor: pointer;
+}
+
+#hamburger-button > span {
+  /* set the spans inside your hamburger button to have a display of block height and margin-bottom of 3, width of 20 */
+  display: block;
+  height: 3px;
+  width: 20px;
+  margin-bottom: 3px;
+  background-color: white;
+
+  -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+}
+
+/*half of our resulting 'X'*/
+#hamburger-button.open span:nth-child(1) {
+  -webkit-transform: translateY(6px) rotate(45deg);
+     -moz-transform: translateY(6px) rotate(45deg);
+      -ms-transform: translateY(6px) rotate(45deg);
+       -o-transform: translateY(6px) rotate(45deg);
+          transform: translateY(6px) rotate(45deg);
+}
+/*rotateY rotates this span 90 degrees away from us effectively making it invisible, much like an ultra thin person turning sideways */
+#hamburger-button.open span:nth-child(2) {
+  -webkit-transform: rotateY(90deg);
+     -moz-transform: rotateY(90deg);
+      -ms-transform: rotateY(90deg);
+       -o-transform: rotateY(90deg);
+          transform: rotateY(90deg);
+}
+/*Other half of our resulting 'X'*/
+#hamburger-button.open span:nth-child(3) {
+  -webkit-transform: translateY(-6px) rotate(-45deg);
+     -moz-transform: translateY(-6px) rotate(-45deg);
+      -ms-transform: translateY(-6px) rotate(-45deg);
+       -o-transform: translateY(-6px) rotate(-45deg);
+          transform: translateY(-6px) rotate(-45deg);
+}
+
+#menu-wrapper {
+  /* set your menu to position fixed
+  set top bottom and left to 0.
+  set a width of auto*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: auto;
+  background-color: grey;
+}
+
+ul#menu {
+  /* make the list-style-type none and add padding */
+  list-style-type: none;
+  padding: 0 30px 0 0;
+}
+
+ul#menu li {
+  /* give your li's a bottom border */
+  border-bottom: 1px solid darkgray;
+}
+
+ul#menu li.selected {
+  /* change the color on a selected li */
+  background-color: rgb(171, 171, 171);
+}
+
+ul#menu > li > a {
+  /* give your links a display of block and set padding */
+  display: block;
+  padding: 10px 60px 10px 10px;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+ul#menu > li > a:link, a:visited {
+  /* set link color */
+  color: white;
+}
+
+ul#menu > li > a:hover {
+  /* set link hover color */
+  color: #333;
+}

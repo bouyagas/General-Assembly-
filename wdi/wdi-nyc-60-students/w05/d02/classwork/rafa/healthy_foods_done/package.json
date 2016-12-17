@@ -1,0 +1,20 @@
+{
+  "name": "healthy_foods_done",
+  "version": "1.0.0",
+  "description": "Gets a list of products from healthies foods supermarket",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "food",
+    "health"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}

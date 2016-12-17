@@ -1,0 +1,26 @@
+body {
+  margin: auto 0;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+
+
+.section1{
+ background-image: url(' ../images/header_bg.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100vw;
+ height: 700px;
+}
+
+.section2{
+ background-color: black;
+ width: 100vw;
+ height: 700px;
+}
+
+.section3{
+  background-color: pink;
+  width: 100vw;
+  height: 700px;
+}

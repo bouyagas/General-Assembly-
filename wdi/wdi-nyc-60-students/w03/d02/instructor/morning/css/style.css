@@ -1,0 +1,16 @@
+body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Udawattakele_Forest_scene_5.jpg/800px-Udawattakele_Forest_scene_5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1280px;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#pony {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 50%;
+}
